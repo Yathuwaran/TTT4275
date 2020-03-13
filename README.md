@@ -1,2 +1,2 @@
-# TTT4275-
-Classification project in TTK4275
+# TTT4275 - Estimation, Detection and Classification
+Classification project in TTT4275
