@@ -8,4 +8,6 @@ for i = 1:num_test
 end
 
 error_rate = 1 - trace(confusion_matrix)/num_test;
+disp('Error rate: ');
+disp(error_rate);
 plt_confusion;

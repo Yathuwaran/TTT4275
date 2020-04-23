@@ -1,7 +1,6 @@
 tic
 NN(trainv,trainlab,testv,10,1000);
 toc
-
 %% Calculate Confusion Matrix and Error Rate
 confusion_matrix = zeros(10);
 for i = 1:num_test
