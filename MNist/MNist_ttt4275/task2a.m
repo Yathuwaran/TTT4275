@@ -1,7 +1,8 @@
-M = 64;  digits = 10; x = 1; y = 1; C = zeros(M*digits,pixels);
+M = 64;  digits = 10; x = 1; y = 1; C = zeros(M*digits,784);
 %% Sort training dataset according to digits
 [sorted_trainlab, index] = sort(trainlab);
 sorted_trainv = zeros(size(trainv));
+cluster_tags = repelem([0 1 2 3 4 5 6 7 8 9]',M);
 for i = 1:num_train
     sorted_trainv(i,:) = trainv(index(i),:);
 end
