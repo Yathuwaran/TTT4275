@@ -2,6 +2,9 @@
 Classification project in TTT4275 by [Yathuwaran Raveendranathan](https://github.com/Yathuwaran) and [Håkon Haugann](https://github.com/Haugann). 
 
 ## Iris
+The implementation of the linear classifier for the Iris task is found in the files irisXfeatures.m
+
+To run, simply press play.
 
 
 ## Mnist - Classification of Handwritten Numbers
